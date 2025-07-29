@@ -1,0 +1,152 @@
+[
+  {
+    "category": "Uploader",
+    "apis": [
+      {
+        "name": "Remini Uploader",
+        "path": "/api/upload/up-remini?imageUrl=",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "category": "Downloader",
+    "apis": [
+      {
+        "name": "Instagram Downloader",
+        "path": "/api/downloader/ig-dl?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Tiktok Downloader",
+        "path": "/api/downloader/tt-dl?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Sound Cloud Downloader",
+        "path": "/api/downloader/sc-dl?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Facebook Downloader",
+        "path": "/api/downloader/fb-dl?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Yt Mobi Mengambil Data dari url yt",
+        "path": "/api/downloader/ytmobi?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Download Anime Indo",
+        "path": "/api/multi/animeindo?download=",
+        "method": "GET"
+      },
+      {
+        "name": "Downloader Video Terabox ",
+        "path": "/api/downloader/terabox-dl?url=",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "category": "Search",
+    "apis": [
+      {
+        "name": "Search Gogo Anime",
+        "path": "/api/search/gogo-search?q=",
+        "method": "ERROR"
+      },
+      {
+        "name": "Search Otaku Desu",
+        "path": "/api/search/otakudesu?query=",
+        "method": "GET"
+      },
+      {
+        "name": "Search Kuro anime",
+        "path": "/api/search/kuronime?q=",
+        "method": "GET"
+      },
+      {
+        "name": "Search Anime Indo",
+        "path": "/api/multi/animeindo?search=",
+        "method": "GET"
+      },
+      {
+        "name": "Search Liputan 6",
+        "path": "/api/search/search-news?q=",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "category": "Ai Asisten",
+    "apis": [
+      {
+        "name": "Claila Asisten",
+        "path": "/api/ai/claila?query=",
+        "method": "GET"
+      },
+      {
+        "name": "Ai Generator Txt to video",
+        "path": "/api/ai/ai-txt2vidio?prompt=",
+        "method": "GET"
+      },
+      {
+        "name": "Aio Downloader mendownload Video Dari url media",
+        "path": "/api/ai/aio?url=",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "category": "Berita",
+    "apis": [
+      {
+        "name": "Berita News Liputan 6",
+        "path": "/api/berita/home-news",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "category": "Nsfw",
+    "apis": [
+      {
+        "name": "Nsfw X Hentai",
+        "path": "/api/nsfw/xhentai",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "category": "Tools",
+    "apis": [
+      {
+        "name": "Tools Remove Background Foto",
+        "path": "/api/tools/tools-removebg?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Enhance Hd Kan Video",
+        "path": "/api/tools/enhance?inputUrl=",
+        "method": "GET"
+      },
+      {
+        "name": "Tools screenshot Website ( ssweb)",
+        "path": "/api/tools/ssweb?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Mengambil Code Html Di Url Web",
+        "path": "/api/tools/tools-gethtml?url=",
+        "method": "GET"
+      },
+      {
+        "name": "Ambil Detail Anime Indo",
+        "path": "/api/multi/animeindo?detail=",
+        "method": "GET"
+      }
+    ]
+  }
+]
